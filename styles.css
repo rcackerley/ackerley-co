@@ -1,0 +1,53 @@
+html {
+   height: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+  
+  height: 100%;
+  padding: 16px;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 76px;
+}
+
+.logo-container {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
